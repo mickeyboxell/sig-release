@@ -29,15 +29,31 @@ The Docs Lead is responsible for working with the Release Team to coordinate doc
 
 Responsibilities include:
 
+* Select and onboard Docs Lead Shadows to the release team
+* Introduce and mentor Docs Lead Shadows regarding the release process and empowering them with the knowledge needed to be future Docs Leads
+* Create an official Release Docs dev branch for the release and ensure it is [kept in sync throughout the release](https://github.com/kubernetes/sig-release/blob/master/release-team/role-handbooks/docs/Release-Timeline.md#maintain-the-current-and-upcoming-dev-branch)
 * Identifying and tracking new Kubernetes features and feature updates that require new content
 * Offering guidance to code contributors about where new feature and enhancements documentation should live
 * Working with contributors to modify existing docs to accurately represent any upcoming changes
 * Providing weekly updates to the Release Team about the current state of release-bound docs
-* Introducing and mentoring Docs Lead Shadows to this process and empowering them with the knowledge needed to be future Docs Leads
 * Reviewing documentation PRs to ensure quality following the website [Style Guide](https://kubernetes.io/docs/contribute/style/style-guide/)
 * Migrating the old website [version] documentation and updating it with the new release
 * Communicating changes with all of the localization branches in order to stay synced across repositories
 * Updating these instructions with each release
+
+* Understand the [Release timeline](https://github.com/kubernetes/sig-release/blob/master/release-team/role-handbooks/docs/Release-Timeline.md) and ensure that major Docs milestones are met according to schedule. The major milestones include: 
+* Creating 
+* Open placeholder PRs
+* PRs ready for review
+* All PRs reviewed and ready to merge
+
+### Onboard the Release Lead Shadows
+* Explain the responsibilities and expectations for the Docs Lead Shadow role, including the information available in the [Docs role handbook)[https://github.com/kubernetes/sig-release/tree/master/release-team/role-handbooks/docs], the [Release Timeline](https://github.com/kubernetes/sig-release/blob/master/release-team/role-handbooks/docs/Release-Timeline.md), and any other relevant sources. 
+* Ask all shadows to open an issue against the kubernetes/org repo in order to become kubernetes/org member: [Issue: Organization Membership Request](https://github.com/kubernetes/org/issues/new?assignees=&labels=area%2Fgithub-membership&template=membership.yml&title=REQUEST%3A+New+membership+for+%3Cyour-GH-handle%3E). Shadows must mention sponsors on the issue. These sponsors should include the Docs Lead, Release Lead, and Emeritus Release Lead. 
+* Create a PR to add the Docs Lead Shadows to the release-team.md file for the release (e.g. https://github.com/kubernetes/sig-release/blob/master/releases/release-1.27/release-team.md).
+* Ensure the team has joined the [kubernetes-sig-release Google group](https://groups.google.com/g/kubernetes-sig-release).
+* Ensure the release lead adds the team of Docs Lead Shadows to the [teams.yaml](https://github.com/kubernetes/org/blob/main/config/kubernetes/sig-release/teams.yaml) and verify all Docs Lead Shadows are included as members of the [release-team-docs](https://github.com/orgs/kubernetes/teams/release-team-docs/members). 
+> Note: Docs Lead Shadows who are not members of this team will not be able to update the Enhancements Tracking Project created for the release. 
 
 ## Prerequisites for Docs Lead and Shadows
 
